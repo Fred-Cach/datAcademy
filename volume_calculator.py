@@ -48,7 +48,8 @@ def volume_calculator(figure):
 
 
 def run():
-    figure = 4
+    figure = 0
+
     while figure > 3 or figure < 1:
         figure = int(
             input("""
